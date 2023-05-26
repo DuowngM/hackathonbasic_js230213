@@ -1,52 +1,79 @@
-.main-section {
-  background-color: lightblue;
-  padding-top: 50px;
-  height: 894px;
-}
 .container {
-  width: 30%;
-  background-color: lightgreen;
+  width: 80%;
   margin: 0 auto;
-  border-radius: 10px;
-  border: 2px solid black;
 }
-.container h1 {
+.form-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   padding-top: 20px;
-  margin-left: 20px;
 }
-.container textarea {
-  padding-bottom: 30px;
-  outline: none;
-  font-size: 20px;
-  margin-left: 5px;
+
+.form-input input[type="text"],
+.form-input select {
+  padding: 6px 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
-.container button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+
+.form-input input[type="date"] {
+  padding: 6px 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-input button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
   border: none;
-  position: relative;
-  left: 490px;
-  top: 15px;
+  margin-left: 12px;
   cursor: pointer;
 }
-.note-element {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+
+.table-infor {
+  margin-top: 24px;
+  overflow-x: auto;
 }
-.element {
-  padding: 30px;
-  background-color: white;
-  width: fit-content;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: 2px solid yellow;
+
+.table-infor table {
+  border-collapse: collapse;
+  width: 100%;
 }
-.element button {
-  height: 40px;
-  width: 30px;
-  font-size: 20px;
+
+.table-infor th,
+.table-infor td {
+  text-align: left;
+  padding: 8px;
+}
+
+.table-infor th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.table-infor tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.buttonEdit {
+  width: 60px;
+  height: 30px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.buttonDelete {
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
   cursor: pointer;
 }
