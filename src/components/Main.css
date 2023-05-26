@@ -1,0 +1,52 @@
+.main-section {
+  background-color: lightblue;
+  padding-top: 50px;
+  height: 894px;
+}
+.container {
+  width: 30%;
+  background-color: lightgreen;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.container h1 {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.container textarea {
+  padding-bottom: 30px;
+  outline: none;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.container button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  left: 490px;
+  top: 15px;
+  cursor: pointer;
+}
+.note-element {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.element {
+  padding: 30px;
+  background-color: white;
+  width: fit-content;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid yellow;
+}
+.element button {
+  height: 40px;
+  width: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
